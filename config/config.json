@@ -1,0 +1,16 @@
+{
+  "development": {
+    "port": 8000,
+    "authSecretKey": "iRxQKMfFnXMhr7urXbQh5EfLvgqzvgHFDI8DGsl3",
+    "hashRounds": 10,
+    "authKeyExpiration": "1d",
+    "pageSize": 3
+  },
+  "testing": {
+    "port": 8080,
+    "authSecretKey": "F0wYyLzeTh7P4mztcdmFay15x1vrJWOpMZPZhR28",
+    "hashRounds": 10,
+    "authKeyExpiration": "1d",
+    "pageSize": 3
+  }
+}
