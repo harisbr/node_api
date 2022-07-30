@@ -11,6 +11,7 @@ const createUser = async (req) => {
 };
 
 const userLogin = async (req) => {
+  console.log(req);
   const service = await sf.getUsersService();
   const data = await service.login(req);
   return data;
